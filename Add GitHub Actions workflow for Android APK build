@@ -1,0 +1,36 @@
+# MealReminder Kivy Android App Plan
+
+## Notes
+- App name: MealReminder
+- Platform: Kivy-based Android mobile app
+- User's daily calorie goal: 2500 kcal
+- 5 meals per day, 500 kcal per meal
+- Colorful UI requested (pastel or vibrant colors)
+- Notifications must work even when app is closed (Android background notifications with sound + vibration)
+- Current local time for reference: 2025-08-08T10:09:02+05:30
+- Project files created: main.py, buildozer.spec, requirements.txt, README.md
+- User wants the app to automatically close after all meals/calories are completed
+- Auto-close feature implemented after all meals/calories completed
+- Attempted Windows APK build; encountered buildozer/Windows limitations
+- GitHub Actions workflow and online/cloud APK build options provided
+- User requested help with GitHub setup for APK build
+
+## Task List
+- [x] Set up basic Kivy app structure
+- [x] Design main UI layout with colorful palette
+- [x] Implement calorie tracking for meals and day
+- [x] Add timer logic for meal intervals (3–4 hours)
+- [x] Add "I Ate" button to reset timer and update calories
+- [ ] Implement Android notifications (sound + vibration, background support)  
+- [x] Create configuration files (buildozer.spec, requirements.txt, README.md)
+- [x] Test app on desktop
+- [ ] Test app on Android device
+- [ ] Enhance Android background notification support
+- [x] Add auto-close app after daily goal completed
+- [x] Attempt to build Android APK (Windows)
+- [ ] Successfully build and test Android APK (may require Linux/WSL/Mac)
+- [ ] Set up GitHub repository and trigger Actions APK build
+- [ ] Download and test APK from GitHub Actions artifacts
+
+## Current Goal
+Resolve Android APK build via GitHub Actions and support user setup
