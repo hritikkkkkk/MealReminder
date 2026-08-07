@@ -3,4 +3,4 @@ plyer>=2.1.0
 buildozer>=1.4.0
 cython>=0.29.0
 
-just insert your
+just insert your calories
